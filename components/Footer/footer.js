@@ -6,6 +6,12 @@ function Footer() {
         height: '250px',
         background: 'blue',
         color: 'black',
-        font
-    }
+        fontSize: '25px',
+    };
+    return (
+
+        <div style={divStyle}>Подвал</div>
+    );
 }
+
+export default Footer;
